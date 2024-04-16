@@ -1,0 +1,30 @@
+.card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .image-container {
+ width: 250px;
+ height: 250px;
+  }
+  
+  .image-container img {
+    max-width: 10%;
+    margin: 5px; /* Ajusta el margen entre las imágenes */
+    border-radius: 8px; /* Opcional: agrega bordes redondeados a las imágenes */
+  }
+  
+  

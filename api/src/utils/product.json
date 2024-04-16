@@ -1,0 +1,313 @@
+[
+    {
+    "id": "001",
+    "brand": "Motorola",
+    "model": "Moto G 53",
+    "category": "Celulares",
+    "price": 178950,
+    "imageUrl": [
+      "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+      "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+    ],
+    "details": {
+      "ram": "4 gb",
+      "proccesor": "Octa-Core Qualcomm Snapdragon",
+      "front camera": "10 mp",
+      "camera": "50 mp",
+      "battery": "5000 mAh",
+      "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+      "ios": "android",
+      "memory": "128 gb",
+      "display" : "6,4 OLED"
+    }
+    
+    },
+    {
+      "id": "002",
+      "brand": "Samsung",
+      "model": "A04",
+      "category": "Celulares",
+      "price": 178950,
+      "imageUrl": [
+        "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+        "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+      ],
+
+      "details": {
+        "ram": "4 gb",
+        "proccesor": "Octa-Core Qualcomm Snapdragon",
+        "front camera": "10 mp",
+        "camera": "50 mp",
+        "battery": "5000 mAh",
+        "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+        "ios": "android",
+        "memory": "128 gb",
+        "display" : "6,4 OLED"
+      }
+      
+      },
+      {
+        "id": "003",
+        "brand": "Motorola",
+        "model": "Moto G 51",
+        "category": "Celulares",
+        "price": 178950,
+        "imageUrl": [
+          "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+          "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+        ],
+  
+        "details": {
+          "ram": "4 gb",
+          "proccesor": "Octa-Core Qualcomm Snapdragon",
+          "front camera": "10 mp",
+          "camera": "50 mp",
+          "battery": "5000 mAh",
+          "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+          "ios": "android",
+          "memory": "128 gb",
+          "display" : "6,4 OLED"
+        }
+        
+        },
+        {
+          "id": "004",
+          "brand": "Motorola",
+          "model": "Moto G 50",
+          "category": "Celulares",
+          "price": 178950,
+          "imageUrl": [
+            "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+            "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+          ],
+    
+          "details": {
+            "ram": "4 gb",
+            "proccesor": "Octa-Core Qualcomm Snapdragon",
+            "front camera": "10 mp",
+            "camera": "50 mp",
+            "battery": "5000 mAh",
+            "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+            "ios": "android",
+            "memory": "128 gb",
+            "display" : "6,4 OLED"
+          }
+          
+          },
+          {
+            "id": "005",
+            "brand": "Motorola",
+            "model": "Moto G 49",
+            "category": "Celulares",
+            "price": 178950,
+            "imageUrl": [
+              "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+              "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+            ],
+      
+            "details": {
+              "ram": "4 gb",
+              "proccesor": "Octa-Core Qualcomm Snapdragon",
+              "front camera": "10 mp",
+              "camera": "50 mp",
+              "battery": "5000 mAh",
+              "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+              "ios": "android",
+              "memory": "128 gb",
+              "display" : "6,4 OLED"
+            }
+            
+            },
+            {
+              "id": "006",
+              "brand": "Motorola",
+              "model": "Moto G 49",
+              "category": "Celulares",
+              "price": 178950,
+              "imageUrl": [
+                "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+              ],
+        
+              "details": {
+                "ram": "4 gb",
+                "proccesor": "Octa-Core Qualcomm Snapdragon",
+                "front camera": "10 mp",
+                "camera": "50 mp",
+                "battery": "5000 mAh",
+                "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                "ios": "android",
+                "memory": "128 gb",
+                "display" : "6,4 OLED"
+              }
+              
+              },
+              {
+                "id": "007",
+                "brand": "Motorola",
+                "model": "Moto G 48",
+                "category": "Celulares",
+                "price": 178950,
+                "imageUrl": [
+                  "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                  "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                ],
+          
+                "details": {
+                  "ram": "4 gb",
+                  "proccesor": "Octa-Core Qualcomm Snapdragon",
+                  "front camera": "10 mp",
+                  "camera": "50 mp",
+                  "battery": "5000 mAh",
+                  "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                  "ios": "android",
+                  "memory": "128 gb",
+                  "display" : "6,4 OLED"
+                }
+                
+                },
+                {
+                  "id": "008",
+                  "brand": "Motorola",
+                  "model": "Moto G 47",
+                  "category": "Celulares",
+                  "price": 178950,
+                  "imageUrl": [
+                    "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                    "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                  ],
+            
+                  "details": {
+                    "ram": "4 gb",
+                    "proccesor": "Octa-Core Qualcomm Snapdragon",
+                    "front camera": "10 mp",
+                    "camera": "50 mp",
+                    "battery": "5000 mAh",
+                    "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                    "ios": "android",
+                    "memory": "128 gb",
+                    "display" : "6,4 OLED"
+                  }
+                  
+                  },
+                  {
+                    "id": "009",
+                    "brand": "Motorola",
+                    "model": "Moto G 47",
+                    "category": "Celulares",
+                    "price": 178950,
+                    "imageUrl": [
+                      "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                      "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                    ],
+              
+                    "details": {
+                      "ram": "4 gb",
+                      "proccesor": "Octa-Core Qualcomm Snapdragon",
+                      "front camera": "10 mp",
+                      "camera": "50 mp",
+                      "battery": "5000 mAh",
+                      "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                      "ios": "android",
+                      "memory": "128 gb",
+                      "display" : "6,4 OLED"
+                    }
+                    
+                    },
+                    {
+                      "id": "010",
+                      "brand": "Motorola",
+                      "model": "Moto G 46",
+                      "category": "Celulares",
+                      "price": 178950,
+                      "imageUrl": [
+                        "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                        "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                      ],
+                
+                      "details": {
+                        "ram": "4 gb",
+                        "proccesor": "Octa-Core Qualcomm Snapdragon",
+                        "front camera": "10 mp",
+                        "camera": "50 mp",
+                        "battery": "5000 mAh",
+                        "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                        "ios": "android",
+                        "memory": "128 gb",
+                        "display" : "6,4 OLED"
+                      }
+                      
+                      },
+                      {
+                        "id": "011",
+                        "brand": "Motorola",
+                        "model": "Moto G 45",
+                        "category": "Celulares",
+                        "price": 178950,
+                        "imageUrl": [
+                          "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                          "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                        ],
+                  
+                        "details": {
+                          "ram": "4 gb",
+                          "proccesor": "Octa-Core Qualcomm Snapdragon",
+                          "front camera": "10 mp",
+                          "camera": "50 mp",
+                          "battery": "5000 mAh",
+                          "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                          "ios": "android",
+                          "memory": "128 gb",
+                          "display" : "6,4 OLED"
+                        }
+                        
+                        },
+                        {
+                          "id": "012",
+                          "brand": "Motorola",
+                          "model": "Moto G 44",
+                          "category": "Celulares",
+                          "price": 178950,
+                          "imageUrl": [
+                            "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                            "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                          ],
+                    
+                          "details": {
+                            "ram": "4 gb",
+                            "proccesor": "Octa-Core Qualcomm Snapdragon",
+                            "front camera": "10 mp",
+                            "camera": "50 mp",
+                            "battery": "5000 mAh",
+                            "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                            "ios": "android",
+                            "memory": "128 gb",
+                            "display" : "6,4 OLED"
+                          }
+                        
+                          },
+                          {
+                            "id": "013",
+                            "brand": "Motorola",
+                            "model": "Moto G 43",
+                            "category": "Celulares",
+                            "price": 178950,
+                            "imageUrl": [
+                              "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-verde1-62a0aa7179ad6359cd16726743840400-640-0.webp",
+                              "https://acdn.mitiendanube.com/stores/001/235/768/products/motog42-rosa1-1fbaa4650fb171460616726743840074-640-0.webp"
+                            ],
+                      
+                            "details": {
+                              "ram": "4 gb",
+                              "proccesor": "Octa-Core Qualcomm Snapdragon",
+                              "front camera": "10 mp",
+                              "camera": "50 mp",
+                              "battery": "5000 mAh",
+                              "dimensiones" : "73,47 x 160,4 x 7,99 mm",
+                              "ios": "android",
+                              "memory": "128 gb",
+                              "display" : "6,4 OLED"
+                            }
+                            
+                            }
+]
