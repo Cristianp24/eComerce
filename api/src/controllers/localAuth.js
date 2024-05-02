@@ -1,7 +1,7 @@
-const { User } = require('../db')
+const { User } = require('../db');
 
-async function loginUser (req,res) {
-const { email, password } = req.body;
+async function localAuth(req, res) {
+  const { email, password } = req.body;
 try {
     if(!email || !password) return res.status(400).json({message:"Faltan datos"});
     const user = await User.findOne({where: {email}});
@@ -15,4 +15,4 @@ try {
 }
 }
 
-module.exports = loginUser;
+module.exports = localAuth;

@@ -13,7 +13,8 @@ const restoreProduct = require("../controllers/restoreProduct.js");
 const getAllReviews = require("../controllers/getAllReviews.js");
 const createReview = require("../controllers/createReview.js");
 const postUser = require("../controllers/postUser.js");
-const loginUser = require("../controllers/loginUser.js");
+const localAuth = require("../controllers/localAuth.js");
+const passportGoogle = require("../controllers/googleAuth.js");
 
 
 const router = Router();
@@ -36,8 +37,19 @@ router.post("/products/restore/:id", restoreProduct);
 router.get("/reviews", getAllReviews);
 router.post("/reviews", createReview);
 
+
+router.get('/auth/google', passportGoogle.authenticate('google', { scope: ['profile', 'email'] }));
+// Ruta de callback para manejar la redirección después del inicio de sesión con Google
+router.get('/auth/google/callback',
+  passportGoogle.authenticate('google', { failureRedirect: '/login' }),
+  function(req, res) {
+    // Autenticación exitosa, redirigir o responder según tu lógica
+    res.redirect('/auth/google');
+  });
+
+
 router.post("/login", postUser)
-router.get("/login", loginUser)
+router.get("/login", localAuth)
 
 
 

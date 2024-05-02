@@ -26,6 +26,20 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
+      role: {
+        type: DataTypes.STRING,
+        values: ["admin", "user"],
+        defaultValue: "user",
+      },
+      status: {
+        type: DataTypes.ENUM,
+        values: ["active", "suspended"],
+        allowNull: false,
+        defaultValue: "active",
+      },
+      googleId: {
+        type: DataTypes.STRING,
+      },
       
       created_at: {
         type: DataTypes.DATE,
