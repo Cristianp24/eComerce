@@ -9,6 +9,12 @@ module.exports = (sequelize) => {
         primaryKey: true,
         autoIncrement: true,
       },
+      googleId: {
+       type: DataTypes.STRING 
+      },
+      secreto: {
+        type: DataTypes.STRING
+      },
       name: {
         type: DataTypes.STRING,
         allowNull: false,

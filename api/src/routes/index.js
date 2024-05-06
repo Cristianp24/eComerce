@@ -14,15 +14,19 @@ const getAllReviews = require("../controllers/getAllReviews.js");
 const createReview = require("../controllers/createReview.js");
 const postUser = require("../controllers/postUser.js");
 const localAuth = require("../controllers/localAuth.js");
-const passportGoogle = require("../controllers/googleAuth.js");
+const passport = require('passport');
+
+
 
 
 const router = Router();
 
 
+
 router.get('/', (req, res) => {
-    res.status(200).json({ message: 'Hello World!' })
-})
+    res.status(200).send('<a href="/auth/google">Iniciar sesión con Google</a>');
+});
+
 router.get("/products/search", searchProducts);
 router.get("/products", getAllProducts);
 router.get("/brands", getAllBrands);
@@ -38,18 +42,28 @@ router.get("/reviews", getAllReviews);
 router.post("/reviews", createReview);
 
 
-router.get('/auth/google', passportGoogle.authenticate('google', { scope: ['profile', 'email'] }));
-// Ruta de callback para manejar la redirección después del inicio de sesión con Google
-router.get('/auth/google/callback',
-  passportGoogle.authenticate('google', { failureRedirect: '/login' }),
+router.post("/login", postUser)
+router.get("/login", localAuth)
+
+
+
+router.get("/auth/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+
+
+
+router.get('/auth/google/callback', 
+  passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
-    // Autenticación exitosa, redirigir o responder según tu lógica
-    res.redirect('/auth/google');
+    // Successful authentication, redirect home.
+    res.redirect('/');
   });
 
 
-router.post("/login", postUser)
-router.get("/login", localAuth)
+router.get("/auth/logout", (req, res) => {
+  req.logout(() => {
+    res.redirect("/brands");
+  });
+});
 
 
 

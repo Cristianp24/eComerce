@@ -4,6 +4,11 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cors = require("cors");
 const router = require("./routes/index.js");
+const session = require('express-session');
+const passport = require('passport');
+const passportStrategy = require('./utils/passport.js'); // Agrega esta línea
+
+
 
 require("./db.js");
 
@@ -11,7 +16,20 @@ const server = express();
 
 server.name = "API";
 
-server.use(cors());
+
+server.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true
+}));
+server.use(passport.initialize());
+server.use(passport.session());
+
+server.use(cors({
+  credentials: true,
+  origin: "http://localhost:3001",
+  methods: ["GET", "POST", "PUT", "DELETE"]
+}));
 
 server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 server.use(bodyParser.json({ limit: "50mb" }));
@@ -29,6 +47,7 @@ server.use((req, res, next) => {
 });
 
 server.use("/", router);
+
 
 // Error catching endware.
 server.use((err, req, res, next) => {
