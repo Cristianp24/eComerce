@@ -7,7 +7,8 @@ const router = require("./routes/index.js");
 const session = require('express-session');
 const passport = require('passport');
 const passportStrategy = require('./utils/passport.js'); // Agrega esta línea
-
+var indexRouter = require('./routes/index');
+var authRouter = require('./routes/auth');
 
 
 require("./db.js");
@@ -47,7 +48,8 @@ server.use((req, res, next) => {
 });
 
 server.use("/", router);
-
+server.use('/', indexRouter);
+server.use('/', authRouter);
 
 // Error catching endware.
 server.use((err, req, res, next) => {

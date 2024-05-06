@@ -15,7 +15,7 @@ const createReview = require("../controllers/createReview.js");
 const postUser = require("../controllers/postUser.js");
 const localAuth = require("../controllers/localAuth.js");
 const passport = require('passport');
-
+const passportStrategy = require('../utils/passport.js');
 
 
 
@@ -47,11 +47,12 @@ router.get("/login", localAuth)
 
 
 
-router.get("/auth/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+router.get('/auth/google',
+  passport.authenticate('google', { scope: ['profile'] }));
 
 
 
-router.get('/auth/google/callback', 
+  router.get('/auth/google/callback', 
   passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
     // Successful authentication, redirect home.
